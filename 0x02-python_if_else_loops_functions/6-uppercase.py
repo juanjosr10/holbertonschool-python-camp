@@ -6,5 +6,5 @@ def uppercase(str):
         else:
             var = ord(str[i])
         print("{}".format(chr(var)), end='')
-    print("")
+    print("".format())
     
