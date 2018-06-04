@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def uppercase(str):
     for i in str:
         if ord(i) > 96 and ord(i) < 123:
@@ -6,5 +6,5 @@ def uppercase(str):
         else:
             pass
         print("{}".format(i), end='')
-    print("".format())
+    print("")
 
